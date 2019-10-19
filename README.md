@@ -52,7 +52,7 @@ make
 
 tar xvjf jemalloc-4.5.0.tar.bz2
 cd jemalloc-4.5.0
-./autogen
+./autogen.sh
 ./configure
 make
 ~~~
@@ -69,7 +69,7 @@ make
 ~~~
 cd kernfs
 make
-cd tests
+cd tests # inside kernfs
 make
 ~~~
 
